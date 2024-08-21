@@ -55,7 +55,7 @@ You can customize the word list used in the game by modifying the words list in 
 python
 Copy code
 def get_word():
-    words = ["python", "hangman", "challenge", "difficult", "programming", "development"]
+    words = "python", "hangman", "challenge", "difficult", "programming", "development"
     return random.choice(words).upper()
 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this code as you wish.
@@ -63,4 +63,3 @@ This project is licensed under the MIT License. You are free to use, modify, and
 Contributing
 Feel free to fork this repository, make your changes, and submit a pull request. Contributions are welcome!
 
-This README
